@@ -35,4 +35,21 @@ Creation of blockchain
                         [X] amount(a)
                     [X] Add the transaction to pendingTransactions
                     [X] test functionality in test.js
-    
+                [X] Create hashing for blocks
+                    [X] Use SHA-256 protocol
+                        [X] previousBlockHash(a)
+                        [X] currentBlockData(a)
+                        [X] nonce(a) 
+                    [X] test functionality in test.js
+                [X] Adding security through proof of work algorithm
+                    [X] Since SHA-256 is very random, we want to give a specific set of rules that the block
+                        must match in order to be considered a valid block and added to the chain
+                        e.g. hash must start with 4 zeros so we must hash the block many times.
+                        [X] Requires a lot of work to geneerate. Because SHA-256 is random 
+                        [X] Easy to verify. Because a hash always returns the same value for a string.
+                    [X] test functionality in test.js
+            [X] Create genesis block
+                [X] Create new block
+                [X] test functionality in test.js 
+
+
