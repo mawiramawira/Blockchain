@@ -1,3 +1,4 @@
+```text
 Creation of blockchain and blockchain API
     [X] Codenames
         [X] (a) - function argument
@@ -72,6 +73,7 @@ Creation of blockchain and blockchain API
                     [X] Carry out transactions
                 [X] mine(e)        GET
                     [X] Send a reward to a nodeAddress(currently uuid) that mined the block
+```
             
             
 
