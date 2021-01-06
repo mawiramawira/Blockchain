@@ -1,13 +1,17 @@
-Creation of blockchain
+Creation of blockchain and blockchain API
     [X] Codenames
         [X] (a) - function argument
+        [X] (e) - endpoints
+        [X] (m) - middleware
+        [X] (d) - dependency
     [X] Create a dev folder
         Where we build our blockchain data structure
         Create API to interact with our blockchain
         More details in readme.txt in this folder
     [X] create blockchain.js and test.js
-    [X] Run npm init in root folder
-    [] In blockchain.js
+    [X] Run npm init in root folder. 
+    [X] Install sha256
+    [X] In blockchain.js - blockchain architecture
         [X] Create blockchain structure 
             [X] Define blockchain properties
                 [X] chain - keeps the blocks
@@ -51,5 +55,24 @@ Creation of blockchain
             [X] Create genesis block
                 [X] Create new block
                 [X] test functionality in test.js 
+    [X] Install express
+    [X] Create api.js in dev. In api.js, the API 
+        [X] Create express app
+            [X] Add dependencies
+                [X] nodemon(d - dev)
+                    [X] In package.json/scripts add: "start": "nodemon --watch dev -e js dev/api.js"
+                [X] uuid(d)
+            [X] Add middleware
+                [X] body-parser(m)
+            [X] Add endpoints
+                [X] Keep testing in Postman
+                [X] blockchain(e)  GET
+                    [X] Where we see the whole chain
+                [X] transaction(e) POST
+                    [X] Carry out transactions
+                [X] mine(e)        GET
+                    [X] Send a reward to a nodeAddress(currently uuid) that mined the block
+            
+            
 
 
