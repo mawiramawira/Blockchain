@@ -1,5 +1,8 @@
 const sha256 = require('sha256');
 
+//keep track of the current node
+const currentNodeUri = process.argv[3];
+
 //blockchain constructor function
 function Blockchain(){
     //creating a new block
@@ -63,6 +66,9 @@ function Blockchain(){
     //base properties
     this.chain = [];
     this.pendingTransactions = [];
+    //keep track of all other nodes
+    this.networkNodes = [];
+    this.currentNodeUri = currentNodeUri;
     this.createNewBlock(100,'0','0');
 }
 
